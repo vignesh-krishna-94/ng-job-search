@@ -3,3 +3,26 @@
     opacity: 1;
     color: white;
   }
+
+  .pagetitle h3{
+    text-align: center;
+}
+.btn-class{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.jobButton{
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 1.1em;
+    font-size: 1.1em;
+
+}
+

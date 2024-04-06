@@ -16,7 +16,7 @@ import { Jobdescription } from '../../common/model/jobdescription.model';
 })
 export class AllJobsComponent implements OnInit {
 
-  jobs: [] = [];
+  jobs: Jobs[] = [];
   constructor(private jobService: JobSearchAppServiceService) {
 
   }

@@ -2,3 +2,69 @@
     color: yellow;
     background-color: yellow;
 }
+.fav-star{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.companylogimages{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.pagetitle h3{
+    text-align: center;
+}
+.btn-class{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.jobButton{
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 1.1em;
+    font-size: 1.1em;
+
+}
+
+.companylist{
+    display: flex;
+    margin-top: 25px;
+    width: 80%;
+    margin: 12px auto;
+}
+
+.companylogimages{
+    width: 15%;
+}
+.companylogimages img{
+    width: 82px;
+}
+.Company-details{
+    width: 70%;
+}
+.Company-details .ref{
+margin-left: 23px;
+}
+
+.title-com:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.main-describtion{
+
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
