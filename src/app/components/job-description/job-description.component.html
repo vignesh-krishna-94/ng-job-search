@@ -1,0 +1,35 @@
+
+
+
+<div class="job-describtion">
+
+  
+    <div (click)="goHome()" class="fav-home">
+        <span class="icon-home"></span><span>Back</span>
+    </div>
+    <div class="main-describtion">
+       
+    <div class="companylogo">
+        <img [src]="jobObj.companyLogo" />
+    </div>   
+    <div class="companytitle">
+        <span><strong>{{jobObj.companyName}}-{{jobObj.title}}</strong></span>
+        <div style="margin-top: 13px;">
+            <span class="button-ref">
+                <button href="">{{jobObj.types[0]}}</button> <button href="">{{jobObj.industries[0]}}</button>
+            </span>
+       
+        </div>
+        
+    </div> 
+ 
+    </div>
+    <div class="description">
+        <p><b>Publish date :</b>{{jobObj.publishDate | date:'dd/MM/yyyy'}}</p>
+        <p><b>Location :</b>{{jobObj.location }}</p>
+        <p><b>Reference :</b>{{jobObj.reference}}</p>
+        <p><b>Description :</b></p>
+        <div [innerHtml]="jobObj.description"></div>
+    </div>
+</div>
+

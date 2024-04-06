@@ -1,0 +1,28 @@
+.companylogo{
+    width: 7%;
+}
+
+.button-ref Button{
+    background-color: #01579b;
+    color: white;
+    margin: 12px 9px;
+    border-radius: 25px;
+    padding: 4px 10px;
+
+}
+
+
+.description{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.fav-home{
+    cursor: pointer;
+    width: 80%;
+    margin: 16px auto;
+    padding-left: 18px;
+}
+.companytitle{
+    margin-left: 32px;
+}

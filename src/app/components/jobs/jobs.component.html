@@ -1,0 +1,26 @@
+<div class="pagetitle">
+    <h3>Find you job</h3>
+</div>
+
+<div class="mainDetails">
+    <div class="btn-class">
+
+        <div class="jobButton">
+            <button [class.active]="currentUrl!=='/jobs/favorites'" class="job-btn buttons" (click)="redirectPage('all-jobs')">
+                JOBS
+            </button>
+        </div>
+        <div class="favButton buttons">
+            <button [class.active]="currentUrl==='/jobs/favorites'" class="fav-button buttons" (click)="redirectPage('favorites')">
+                FAVOURITES
+            </button>
+        </div>
+    </div>
+    
+
+    <div class="main-content">
+        <router-outlet></router-outlet>
+    </div>
+
+
+</div>

@@ -1,0 +1,7 @@
+
+<div *ngIf="favouriteJobsArray.length > 0">
+    <app-list-item [jobs]="favouriteJobsArray" [favouritesPage]="true"></app-list-item>
+</div>
+<div class= "no-fav-dev" *ngIf="favouriteJobsArray.length == 0 || !favouriteJobsArray">
+    <p class="no-fav">No Favorites list</p>
+</div>

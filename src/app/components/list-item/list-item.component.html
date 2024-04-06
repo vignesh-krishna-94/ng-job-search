@@ -1,0 +1,17 @@
+<div class="companylist" *ngFor="let job of jobs">
+    <div class="companylogimages">
+        <img src={{job.companyLogo}} />
+    </div>
+    <div (click)="redirectPage(job.id)" class="Company-details">
+        <h3 class="title-com"><Strong>{{job.title}}</Strong></h3>
+        <span>Company:{{job.companyName}}</span> <span class="ref">Reference:{{job.reference}}</span>
+    </div>
+
+    <div class="fav-star ">
+        <span class="icon-star" *ngIf="!favouritesPage" (click)="setFavourites(job.id)"
+        [class.active]="favourites[job.id]">
+        
+    </span>
+    </div>
+    
+</div>
